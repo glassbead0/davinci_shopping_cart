@@ -11,9 +11,10 @@ group :development, :test do
   gem 'bcrypt'
   gem 'sqlite3'
   gem 'shoulda-matchers'
-  gem 'bootstrap-generators'
-  gem 'will_paginate-bootstrap'
 end
+
+# gem 'bootstrap-generators'
+# gem 'will_paginate-bootstrap'
 
 group :production do
   gem 'pg'
